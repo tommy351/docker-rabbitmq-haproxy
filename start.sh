@@ -10,7 +10,7 @@ chmod 400 $cookie_path
 chown rabbitmq:rabbitmq $cookie_path
 
 # Initialize configs
-for p in 5673 5674 5675
+for p in 5673 5674
 do
   echo "
 [program:rabbitmq-$p]

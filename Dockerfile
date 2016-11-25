@@ -11,6 +11,6 @@ COPY supervisord.conf /
 COPY haproxy.cfg /etc/haproxy
 COPY rabbitmq.config /etc/rabbitmq/rabbitmq.config
 
-EXPOSE 5672 5673 5674 5675 15672
+EXPOSE 5672 5673 5674
 
 CMD ["./start.sh"]
